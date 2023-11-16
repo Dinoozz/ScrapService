@@ -1,0 +1,2312 @@
+
+    Time: 2023-11-16 10:36:42
+    Request Method: POST
+    Request URL: /register
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "ef96bfbd-c6be-4182-9364-fc7bd5382d81",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 10:43:33
+    Request Method: POST
+    Request URL: /register
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "e5cd1595-e1b6-4046-94e3-bfbc04636efe",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 10:43:45
+    Request Method: POST
+    Request URL: /register
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "0141f121-d2d9-4a6e-99a1-5a0cab435adb",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 10:59:44
+    Request Method: POST
+    Request URL: /register
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "a92fd582-4532-4c69-847b-c032ecb8216d",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 11:0:2
+    Request Method: POST
+    Request URL: /api/users/register
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "c3072179-a24e-4a2b-a51f-dd45403a2b89",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 11:4:9
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "0aff1c06-cd16-4867-8eb8-33d55d3fbdee",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "58"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Leco"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 11:4:13
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "120255b4-b51f-4e71-854f-de293a5cc28a",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 11:5:13
+    Request Method: GET
+    Request URL: /api/users
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "e706b13f-439c-4fc5-96a4-a9a942d19b7d",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 11:5:20
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "9c652e87-fd4f-464a-9b7a-3ebf858c00b1",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 11:5:47
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMjkwNTMsImV4cCI6MTcwMDEzMjY1M30.w_Zoq2qfNrKhtWMJpQ11peTSL22YZzaIyz9fMcDuanQ",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "ee277638-09b4-4953-8cbc-b942b3ad56a7",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 11:6:42
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMjkwNTMsImV4cCI6MTcwMDEzMjY1M30.w_Zoq2qfNrKhtWMJpQ11peTSL22YZzaIyz9fMcDuanQ",
+  "content-type": "text/plain",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "b4e0e6ee-852f-4ecc-a546-c533f8e12acc",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "24"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 11:6:59
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMjkwNTMsImV4cCI6MTcwMDEzMjY1M30.w_Zoq2qfNrKhtWMJpQ11peTSL22YZzaIyz9fMcDuanQ",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "b7affdc3-04be-4380-a36a-b878eaecd947",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "24"
+}
+    Body: {
+  "role": "admin"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 11:9:8
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMjkwNTMsImV4cCI6MTcwMDEzMjY1M30.w_Zoq2qfNrKhtWMJpQ11peTSL22YZzaIyz9fMcDuanQ",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "773263b0-e040-4901-90b4-80cdebbd2d2f",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 11:9:58
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMjkwNTMsImV4cCI6MTcwMDEzMjY1M30.w_Zoq2qfNrKhtWMJpQ11peTSL22YZzaIyz9fMcDuanQ",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "17875e53-00b2-417d-92e8-24c01f003f6d",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 11:14:33
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMjkwNTMsImV4cCI6MTcwMDEzMjY1M30.w_Zoq2qfNrKhtWMJpQ11peTSL22YZzaIyz9fMcDuanQ",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "48b13fb7-42e2-42c2-a624-899dff684ae2",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 11:14:38
+    Request Method: POST
+    Request URL: /api/users/register
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "3d1c5559-ece9-457e-b7dc-45d3776ce1a9",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 11:14:42
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "8a4a5e2b-5ab4-44ef-adf2-686993cfb2a8",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 11:14:54
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMjk2ODIsImV4cCI6MTcwMDEzMzI4Mn0.jtH5wlXdTV5SQeZP2DIH6JhxES9Ndy3TDuVTBU6PMnI",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "d1982ae9-81c3-4d8e-b6d7-5ac0d38c1cf3",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 11:15:1
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMjk2ODIsImV4cCI6MTcwMDEzMzI4Mn0.jtH5wlXdTV5SQeZP2DIH6JhxES9Ndy3TDuVTBU6PMnI",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "d456d213-89be-409e-aa71-19da988ecd36",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 11:15:10
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMjk2ODIsImV4cCI6MTcwMDEzMzI4Mn0.jtH5wlXdTV5SQeZP2DIH6JhxES9Ndy3TDuVTBU6PMnI",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "4d6576fc-1618-44df-a151-1d45799f9fac",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 11:16:12
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoidXNlciIsImlhdCI6MTcwMDEyODgwMiwiZXhwIjoxNzAwMTMyNDAyfQ.eqOR2C0tg6Ek-Gy0O5He704G-QLMzKvv6y9QBH05VZU",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "a16c21bd-9654-4ae6-af4f-d1d0b2ca74e3",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 11:56:43
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "e2a4656a-64c9-4857-bcf4-8fc10abcd6d0",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 11:58:45
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "4f055069-d076-47aa-8d74-2bd2316b17f5",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 11:58:48
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "2fe78188-b96e-482d-8301-d920c3b15972",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:7:22
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "d0e5c545-55fb-486f-9db2-de8c11be2042",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:13:54
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "10c045f7-f50c-4d84-8a70-b8a6c16ea9d7",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:14:20
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "a73980b5-7566-4cf4-a226-536b9061db8a",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:14:59
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMWMyVnlTV1FpT2lJMk5UVTFaVGd5TWpJeE9UTTRPR0U0Wmpsak1qTmlNakFpTENKeWIyeGxJam9pWVdSdGFXNGlMQ0pwWVhRaU9qRTNNREF4TXpNeU5qQXNJbVY0Y0NJNk1UY3dNREV6TmpnMk1IMC4xdmJUWUtzVXVTUUk1THBHOEdhWlF2aEJ2amlwV0xHSTdxU01jRGtJeVJVIiwiY3NyZiI6ImQ4MjhmMjMwMWQxNmEyMzRhOTY0MThhOWVkYTk1ZDZkN2JlMTNhNTFlYzI0YjQ5OWVkYjRmMGQ0OGEyYWZkZjY5MDk0NzliYzUxZmFmOTFiNzA1NWNlNWI4NGE0Y2QyNWExYThhZTA5OTFhMjAwNTk2N2MwN2U0OGJjOGI5OTZlIiwiaWF0IjoxNzAwMTMzMjYwfQ.PrFTTq2NsK_a7gfRV2FnOC4fJVtifM6wOvW43Q9fClA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "e8facafa-47b5-4658-86f8-6c00f6c99de3",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:17:36
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "a401305a-ed93-4c7a-a9d1-ed94b13941c1",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:17:53
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMWMyVnlTV1FpT2lJMk5UVTFaVGd5TWpJeE9UTTRPR0U0Wmpsak1qTmlNakFpTENKeWIyeGxJam9pWVdSdGFXNGlMQ0pwWVhRaU9qRTNNREF4TXpNME5UWXNJbVY0Y0NJNk1UY3dNREV6TnpBMU5uMC5ScmRKOTY3Y2s5OW1UMEZOMDlUUU9aOUp4cGQ2dVYta3ZmT3NMdVJFRFpJIiwiY3NyZiI6ImQ4MjhmMjMwMWQxNmEyMzRhOTY0MThhOWVkYTk1ZDZkN2JlMTNhNTFlYzI0YjQ5OWVkYjRmMGQ0OGEyYWZkZjY5MDk0NzliYzUxZmFmOTFiNzA1NWNlNWI4NGE0Y2QyNWExYThhZTA5OTFhMjAwNTk2N2MwN2U0OGJjOGI5OTZlIiwiaWF0IjoxNzAwMTMzNDU2fQ.8q3P0cHZ5PfPzpcNp0VsWrMf-zJICdUJ6HtBd-EyrqY",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "4b286a8e-1ce5-4e9b-b484-bcc6d19936a0",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:18:46
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "ba07463b-fec0-4516-9c8b-ff91067cb13b",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:18:52
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMWMyVnlTV1FpT2lJMk5UVTFaVGd5TWpJeE9UTTRPR0U0Wmpsak1qTmlNakFpTENKeWIyeGxJam9pWVdSdGFXNGlMQ0pwWVhRaU9qRTNNREF4TXpNME5UWXNJbVY0Y0NJNk1UY3dNREV6TnpBMU5uMC5ScmRKOTY3Y2s5OW1UMEZOMDlUUU9aOUp4cGQ2dVYta3ZmT3NMdVJFRFpJIiwiY3NyZiI6ImQ4MjhmMjMwMWQxNmEyMzRhOTY0MThhOWVkYTk1ZDZkN2JlMTNhNTFlYzI0YjQ5OWVkYjRmMGQ0OGEyYWZkZjY5MDk0NzliYzUxZmFmOTFiNzA1NWNlNWI4NGE0Y2QyNWExYThhZTA5OTFhMjAwNTk2N2MwN2U0OGJjOGI5OTZlIiwiaWF0IjoxNzAwMTMzNDU2fQ.8q3P0cHZ5PfPzpcNp0VsWrMf-zJICdUJ6HtBd-EyrqY",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "2b3e84cf-edb3-4769-874d-1e244cf500a7",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:19:11
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMWMyVnlTV1FpT2lJMk5UVTFaVGd5TWpJeE9UTTRPR0U0Wmpsak1qTmlNakFpTENKeWIyeGxJam9pWVdSdGFXNGlMQ0pwWVhRaU9qRTNNREF4TXpNMU1qY3NJbVY0Y0NJNk1UY3dNREV6TnpFeU4zMC5lc3NsUHpsN0xtUGNGYWZscWRrbU9NcDJMd1JlNDNjcVhSRzZCODRpNHVZIiwiY3NyZiI6ImQ4MjhmMjMwMWQxNmEyMzRhOTY0MThhOWVkYTk1ZDZkN2JlMTNhNTFlYzI0YjQ5OWVkYjRmMGQ0OGEyYWZkZjY5MDk0NzliYzUxZmFmOTFiNzA1NWNlNWI4NGE0Y2QyNWExYThhZTA5OTFhMjAwNTk2N2MwN2U0OGJjOGI5OTZlIiwiaWF0IjoxNzAwMTMzNTI3fQ.yCupzwHqYa_qIrrEHNMaGdwvm6k_1q02qhKvm-iPCRE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "cdee1bb6-8948-44a8-9896-b9e39856c202",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:19:23
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMWMyVnlTV1FpT2lJMk5UVTFaVGd5TWpJeE9UTTRPR0U0Wmpsak1qTmlNakFpTENKeWIyeGxJam9pWVdSdGFXNGlMQ0pwWVhRaU9qRTNNREF4TXpNMU1qY3NJbVY0Y0NJNk1UY3dNREV6TnpFeU4zMC5lc3NsUHpsN0xtUGNGYWZscWRrbU9NcDJMd1JlNDNjcVhSRzZCODRpNHVZIiwiY3NyZiI6ImQ4MjhmMjMwMWQxNmEyMzRhOTY0MThhOWVkYTk1ZDZkN2JlMTNhNTFlYzI0YjQ5OWVkYjRmMGQ0OGEyYWZkZjY5MDk0NzliYzUxZmFmOTFiNzA1NWNlNWI4NGE0Y2QyNWExYThhZTA5OTFhMjAwNTk2N2MwN2U0OGJjOGI5OTZlIiwiaWF0IjoxNzAwMTMzNTI3fQ.yCupzwHqYa_qIrrEHNMaGdwvm6k_1q02qhKvm-iPCRE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "bb462332-3cff-49cf-a30f-545d136bc90d",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:19:37
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMWMyVnlTV1FpT2lJMk5UVTFaVGd5TWpJeE9UTTRPR0U0Wmpsak1qTmlNakFpTENKeWIyeGxJam9pWVdSdGFXNGlMQ0pwWVhRaU9qRTNNREF4TXpNMU1qY3NJbVY0Y0NJNk1UY3dNREV6TnpFeU4zMC5lc3NsUHpsN0xtUGNGYWZscWRrbU9NcDJMd1JlNDNjcVhSRzZCODRpNHVZIiwiY3NyZiI6ImQ4MjhmMjMwMWQxNmEyMzRhOTY0MThhOWVkYTk1ZDZkN2JlMTNhNTFlYzI0YjQ5OWVkYjRmMGQ0OGEyYWZkZjY5MDk0NzliYzUxZmFmOTFiNzA1NWNlNWI4NGE0Y2QyNWExYThhZTA5OTFhMjAwNTk2N2MwN2U0OGJjOGI5OTZlIiwiaWF0IjoxNzAwMTMzNTI3fQ.yCupzwHqYa_qIrrEHNMaGdwvm6k_1q02qhKvm-iPCRE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "399c7ad4-94b5-42f2-b658-f9d04b4a861a",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:19:58
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMWMyVnlTV1FpT2lJMk5UVTFaVGd5TWpJeE9UTTRPR0U0Wmpsak1qTmlNakFpTENKeWIyeGxJam9pWVdSdGFXNGlMQ0pwWVhRaU9qRTNNREF4TXpNMU1qY3NJbVY0Y0NJNk1UY3dNREV6TnpFeU4zMC5lc3NsUHpsN0xtUGNGYWZscWRrbU9NcDJMd1JlNDNjcVhSRzZCODRpNHVZIiwiY3NyZiI6ImQ4MjhmMjMwMWQxNmEyMzRhOTY0MThhOWVkYTk1ZDZkN2JlMTNhNTFlYzI0YjQ5OWVkYjRmMGQ0OGEyYWZkZjY5MDk0NzliYzUxZmFmOTFiNzA1NWNlNWI4NGE0Y2QyNWExYThhZTA5OTFhMjAwNTk2N2MwN2U0OGJjOGI5OTZlIiwiaWF0IjoxNzAwMTMzNTI3fQ.yCupzwHqYa_qIrrEHNMaGdwvm6k_1q02qhKvm-iPCRE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "27f95dce-9d4b-47ed-9267-0e3edc499667",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:20:13
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMWMyVnlTV1FpT2lJMk5UVTFaVGd5TWpJeE9UTTRPR0U0Wmpsak1qTmlNakFpTENKeWIyeGxJam9pWVdSdGFXNGlMQ0pwWVhRaU9qRTNNREF4TXpNMU1qY3NJbVY0Y0NJNk1UY3dNREV6TnpFeU4zMC5lc3NsUHpsN0xtUGNGYWZscWRrbU9NcDJMd1JlNDNjcVhSRzZCODRpNHVZIiwiY3NyZiI6ImQ4MjhmMjMwMWQxNmEyMzRhOTY0MThhOWVkYTk1ZDZkN2JlMTNhNTFlYzI0YjQ5OWVkYjRmMGQ0OGEyYWZkZjY5MDk0NzliYzUxZmFmOTFiNzA1NWNlNWI4NGE0Y2QyNWExYThhZTA5OTFhMjAwNTk2N2MwN2U0OGJjOGI5OTZlIiwiaWF0IjoxNzAwMTMzNTI3fQ.yCupzwHqYa_qIrrEHNMaGdwvm6k_1q02qhKvm-iPCRE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "5d7e53b8-92ec-4e15-800a-ea0c93c00f94",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:21:58
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKMWMyVnlTV1FpT2lJMk5UVTFaVGd5TWpJeE9UTTRPR0U0Wmpsak1qTmlNakFpTENKeWIyeGxJam9pWVdSdGFXNGlMQ0pwWVhRaU9qRTNNREF4TXpNMU1qY3NJbVY0Y0NJNk1UY3dNREV6TnpFeU4zMC5lc3NsUHpsN0xtUGNGYWZscWRrbU9NcDJMd1JlNDNjcVhSRzZCODRpNHVZIiwiY3NyZiI6ImQ4MjhmMjMwMWQxNmEyMzRhOTY0MThhOWVkYTk1ZDZkN2JlMTNhNTFlYzI0YjQ5OWVkYjRmMGQ0OGEyYWZkZjY5MDk0NzliYzUxZmFmOTFiNzA1NWNlNWI4NGE0Y2QyNWExYThhZTA5OTFhMjAwNTk2N2MwN2U0OGJjOGI5OTZlIiwiaWF0IjoxNzAwMTMzNTI3fQ.yCupzwHqYa_qIrrEHNMaGdwvm6k_1q02qhKvm-iPCRE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "ab76bae8-d460-4ef7-b65a-d8ac6939f697",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:23:2
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "4cfe9846-4dc8-46aa-a369-5ab4eb7e195e",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:23:13
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzM3ODIsImV4cCI6MTcwMDEzNzM4Mn0.pk9nKZKAC19vgK_v2NNy-q106iXCgTI_1y3zs7TLNEo",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "da0c3df1-6631-42d5-abfa-abc34cbac0eb",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:23:39
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "3642429b-49be-4f19-860b-958a92262eca",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:23:47
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "1b938434-5c7e-43e9-ab36-40aa4bdf946a",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:23:47
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "3d845a42-28c8-47c5-8dd6-08f944e7ea24",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:24:1
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "d125303f-44d7-4f61-b544-e188fe8537eb",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:25:38
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzM4NDEsImV4cCI6MTcwMDEzNzQ0MX0.3Z2kQKF7A4LzS1Jnltjos4D_3bZCkjsfiPQcZskrGS0",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "17e473a3-8c1e-4582-b395-1d5abe47346f",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:27:6
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "2d15d6c3-9d73-45ea-a448-cb9f1ae1a1b4",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:27:16
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQwMjcsImV4cCI6MTcwMDEzNzYyN30._0XnlhoXGc_xMwfTiw7BS_6YWuUAbGOINTD8mQL8rW4",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "6342bdf6-5a8f-4b84-8553-7da6ec2e42d2",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:28:10
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "987d3790-bf78-45de-9716-51ec3474a33b",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    Time: 2023-11-16 12:28:21
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQwOTAsImV4cCI6MTcwMDEzNzY5MH0.7Yd_2NOM3_h66d7Cj7oQRyBNVGBeyQy1W6cXdWb-W-c",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "08127bfb-e3bd-4430-97ec-bd54e3c6b63b",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:28:34
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQwOTAsImV4cCI6MTcwMDEzNzY5MH0.7Yd_2NOM3_h66d7Cj7oQRyBNVGBeyQy1W6cXdWb-W-c",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "166e6262-ec14-485a-bfea-a53e1f915cb9",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:34:4
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQwOTAsImV4cCI6MTcwMDEzNzY5MH0.7Yd_2NOM3_h66d7Cj7oQRyBNVGBeyQy1W6cXdWb-W-c",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "343391ff-a4da-4293-8ec6-c9b9f436c615",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:5
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "2614e171-999b-409e-b2cd-4c7705751e7b",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:7
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "cb658a60-a88a-4fdb-9d95-862ee205ac19",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:7
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "8035748c-674f-4069-982f-4237752799df",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:8
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "268f0dbb-1e43-4286-bfee-7e77304b9e37",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:9
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "dc00468f-37b7-4008-ae70-594c7dd2d3ad",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:9
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "0dc15cfb-ee4d-41f0-9f41-439a09b145fd",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:10
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "9bdc2a3d-89df-4730-8026-c47accaf9ebe",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:10
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "3e59c4bc-6e84-4793-91ee-fe6073e28d80",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:11
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "5d9a78fa-f0ee-4d28-861d-606e2ec5a964",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:11
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "2063127d-c3f8-415b-a73b-c1f5e13ee307",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:11
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "853d68a4-49ca-4ba0-a03c-f846c6154d43",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:12
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "5e12091b-c675-490f-b133-0c7ab575e0e2",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:12
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "9dc74e17-e853-4848-a421-e90d1d8185c9",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:13
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "f2e67d51-b6a4-433e-8f3b-d9656725e5fc",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:13
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "91fcc55c-d005-4b8d-b359-a835e2412559",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:13
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "e26e78e5-95ad-4e7c-897c-b9aa5dd5af51",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:14
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "fc14863d-5294-4b18-95da-dd885e3d86ae",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:14
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "1acd8f13-574c-45f4-b0e3-03622bb9f6af",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:15
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "2ba9ae7c-27af-46f3-b78a-62a4cabdbc45",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:15
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "d6b9895c-7fbe-43ea-aa5e-aabe4f62a4ee",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:15
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "bd1860f9-01b7-44ed-98a4-5889bea8fb80",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:16
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "054eba0c-dd09-49bf-92e5-03a0fe2707c4",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:16
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "33561f06-cf5d-44ca-83cb-675b5c4ec29d",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:17
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "0e883481-5ccd-4814-bc4d-1cce93778ad7",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:17
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "c4fcec50-c0e1-4de3-b7d7-ba66040db5b1",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:17
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "feabf206-f3dd-4de5-9e78-5a9b8da7a10f",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:18
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "30ffb18d-e897-497b-8d89-9366688982ac",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:18
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "4361887e-c6fc-4aef-90e7-365b5ea1888b",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:18
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "9e533d29-7718-4266-b862-51da3ab45b2f",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:19
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "1a8e98d3-9035-4359-b134-36f373926f14",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:19
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "052d75d6-8e04-4026-bd47-fd1da6fdea22",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    Time: 2023-11-16 12:37:20
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "66906cd9-60b4-4e7e-b027-2e47cee56e37",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:38:0
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "03bf1257-316b-499a-be7a-6b23b1c5cff9",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:38:3
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQwOTAsImV4cCI6MTcwMDEzNzY5MH0.7Yd_2NOM3_h66d7Cj7oQRyBNVGBeyQy1W6cXdWb-W-c",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "1b9609f9-f0bf-497d-8be2-fd0be1e27b40",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:38:23
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "d2d51bf9-9a74-4c05-805f-e3097e0342ee",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e%7C18306a1366ab0c15931a12e4dd18f5afe267e572e9987df01fb02900b5b5626d"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:39:8
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQwOTAsImV4cCI6MTcwMDEzNzY5MH0.7Yd_2NOM3_h66d7Cj7oQRyBNVGBeyQy1W6cXdWb-W-c",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "6afb0056-d60c-481c-b6c2-b5c27a744e0e",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:39:18
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "83692cb5-ba0b-4427-97b1-9ce33f1d520f",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:39:21
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQwOTAsImV4cCI6MTcwMDEzNzY5MH0.7Yd_2NOM3_h66d7Cj7oQRyBNVGBeyQy1W6cXdWb-W-c",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "df3b3d56-9407-41d2-9218-db1141864f88",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:41:2
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQ3NTgsImV4cCI6MTcwMDEzODM1OH0.FXKzx0hG686HNsdj3C_y5J4biylnvd-vktXnNZqJsOg",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "postman-token": "d46dceba-1d99-4b46-9788-b46ebb5402d4",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=d828f2301d16a234a96418a9eda95d6d7be13a51ec24b499edb4f0d48a2afdf6909479bc51faf91b7055ce5b84a4cd25a1a8ae0991a2005967c07e48bc8b996e"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:42:9
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:42:29
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQ5MjksImV4cCI6MTcwMDEzODUyOX0.uoYoYKlBKcqyynTnc5LhLnGsaRWD5thMAY8C6y91fY4",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:42:57
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:42:58
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:42:58
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:43:46
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQ5MjksImV4cCI6MTcwMDEzODUyOX0.uoYoYKlBKcqyynTnc5LhLnGsaRWD5thMAY8C6y91fY4",
+  "crsf-tokenm": "6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:44:33
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQ5MjksImV4cCI6MTcwMDEzODUyOX0.uoYoYKlBKcqyynTnc5LhLnGsaRWD5thMAY8C6y91fY4",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:47:47
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQ5MjksImV4cCI6MTcwMDEzODUyOX0.uoYoYKlBKcqyynTnc5LhLnGsaRWD5thMAY8C6y91fY4",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 12:48:6
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxMzQ5MjksImV4cCI6MTcwMDEzODUyOX0.uoYoYKlBKcqyynTnc5LhLnGsaRWD5thMAY8C6y91fY4",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:7:49
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:8:17
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAwNjksImV4cCI6MTcwMDE0MzY2OX0.YzpFRN4TT7UzwTVR_srUQgRIGNpXthvwcmTMzjmDziY",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:9:22
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:9:33
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:9:51
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:9:52
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:9:53
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:9:54
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:18:58
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:19:3
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:19:5
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:19:35
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:19:37
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:19:41
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:19:48
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NisInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:19:52
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:6
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:7
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:7
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:8
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:8
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:9
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:9
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:10
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:10
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:10
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:11
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:11
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:12
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:12
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:13
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:13
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:14
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:14
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:14
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:36
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "59",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {
+  "username": "Camille",
+  "password": "Lecoq"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:39
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:41
+    Request Method: GET
+    Request URL: /csrf-token
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:48
+    Request Method: GET
+    Request URL: /c
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:20:50
+    Request Method: GET
+    Request URL: /
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:31:32
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTU1ZTgyMjIxOTM4OGE4ZjljMjNiMjAiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDAxNDAxNjIsImV4cCI6MTcwMDE0Mzc2Mn0.edoJmpdsJosFxctpbHHmBN9dR-kgCRraLmx7NMOHfQc",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-11-16 14:31:35
+    Request Method: GET
+    Request URL: /
+    Headers: {
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "cookie": "crsf-tokenM=6ad559c4ee97ead692706e0ed475325e57df58065cefbd4b8adec8b67ceae528aa23bc21a37498311de605ceb89cdf99fb77fec67f97682f27bb429658092f4a%7Ccefe36fa4ed02c2ad42caa575ab65856f2a457b54aaf67236774cb2d517f0245"
+}
+    Body: {}
+    ------------------------------
+    
