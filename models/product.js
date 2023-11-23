@@ -3,10 +3,6 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const ProductSchema = new Schema({
-  origin: {
-    type: String,
-    required: true
-  },
   designation: {
     type: String,
     required: true
@@ -15,10 +11,6 @@ const ProductSchema = new Schema({
     type: String,
     required: true,
     unique: true
-  },
-  price: {
-    type: String,
-    required: true,
   },
 
   originHistory: [{
