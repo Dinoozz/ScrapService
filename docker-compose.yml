@@ -1,20 +1,38 @@
-version: '3'
+version: '3.8'
+
 services:
-  app:
-    build: .
-    ports:
-      - "5000:5000"
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    restart: always
     environment:
-      - MONGODB_URI=mongodb://mongo:27017/dbScraping
-      - JWT_SECRET=@4bG7!fZsP3wH9#M
-      - SESSION_SECRET=Y6n%8kPq@1#4!vTz
-      - COOKIE_SECRET=M4%rSfwh8:eAztq
-      - CSRF_SECRET=P$rN5o+AZ1H]~Bk
-    depends_on:
-      - mongo
-  mongo:
-    image: mongo
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: pass
     ports:
       - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+  
+
+  express-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
     environment:
-      - MONGO_INITDB_DATABASE=dbScraping
+      MONGODB_URI: mongodb://mongo:27017/dbScraping
+      JWT_SECRET: "@4bG7!fZsP3wH9#M"
+      SESSION_SECRET: Y6n%8kPq@1#4!vTz
+      COOKIE_SECRET: M4%rSfwh8:eAztq
+      CSRF_SECRET: P$rN5o+AZ1H]~Bk
+      DB_URI: mongodb://admin:pass@mongodb:27017
+      DB_HOST: mongo
+      DB_PORT: 27017
+      DB_USER: admin
+      DB_PASS: pass
+    depends_on:
+      - mongodb
+
+volumes:
+  mongodb_data:
