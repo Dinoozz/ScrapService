@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        await mongoose.connect(MONGODB_URI, { auth: { authSource: "admin" } });
+        await mongoose.connect(MONGODB_URI);
         console.log('MongoDB connecté...');
     } catch (err) {
         console.error(err.message);
