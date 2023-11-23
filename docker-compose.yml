@@ -13,8 +13,6 @@ services:
       - "27017:27017"
     volumes:
       - mongodb_data:/data/db
-    command: >
-      mongod --auth --bind_ip_all
   
 
   express-app:
@@ -24,7 +22,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      MONGODB_URI: mongodb://admin:pass@mongodb:27017/dbScraping
+      MONGODB_URI: mongodb://admin:pass@localhost:27017/dbScraping
       JWT_SECRET: "@4bG7!fZsP3wH9#M"
       SESSION_SECRET: Y6n%8kPq@1#4!vTz
       COOKIE_SECRET: M4%rSfwh8:eAztq
