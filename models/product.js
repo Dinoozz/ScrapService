@@ -12,6 +12,11 @@ const ProductSchema = new Schema({
     required: true,
     unique: true
   },
+  prestashopId: {
+    type: String,
+    required: true,
+    unique: true
+  },
 
   originHistory: [{
     type: mongoose.Schema.Types.ObjectId,
