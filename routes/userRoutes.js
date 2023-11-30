@@ -144,12 +144,10 @@ router.put('/:id', checkRole(['admin']), async (req, res) => {
 // Supprimer un utilisateur (admin seulement)
 router.delete('/:id', checkRole(['admin']), async (req, res) => {
     try {
-        const user = await User.findById(req.params.id);
+        const user = await User.findByIdAndDelete(req.params.id);
         if (!user) {
             return res.status(404).send('Utilisateur non trouvé');
         }
-
-        await user.remove();
         res.json({ msg: 'Utilisateur supprimé' });
     } catch (err) {
         console.error(err.message);
