@@ -97,7 +97,7 @@ router.post('/', checkRole(['admin']), async (req, res) => {
 // Lire tous les utilisateurs (admin et manager seulement)
 router.get('/', checkRole(['admin', 'manager']), async (req, res) => {
     try {
-        const users = await User.find();
+        const users = await User.find().select('-token');
         res.json(users);
     } catch (err) {
         console.error(err.message);
@@ -108,7 +108,7 @@ router.get('/', checkRole(['admin', 'manager']), async (req, res) => {
 // Lire un utilisateur spécifique (admin et manager seulement)
 router.get('/:id', checkRole(['admin', 'manager']), async (req, res) => {
     try {
-        const user = await User.findById(req.params.id);
+        const user = await User.findById(req.params.id).select('-token');
         if (!user) {
             return res.status(404).send('Utilisateur non trouvé');
         }
@@ -130,7 +130,7 @@ router.put('/:id', checkRole(['admin']), async (req, res) => {
 
         if (username) user.username = username;
         if (role) user.role = role;
-        if (email) user.role = email;
+        if (email) user.email = email;
         if (password) user.password = password;
 
         await user.save();
