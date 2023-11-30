@@ -121,7 +121,7 @@ router.get('/:id', checkRole(['admin', 'manager']), async (req, res) => {
 
 // Mettre à jour un utilisateur (admin seulement)
 router.put('/:id', checkRole(['admin']), async (req, res) => {
-    const { username, password, role } = req.body;
+    const { username, password, role, email } = req.body;
     try {
         let user = await User.findById(req.params.id);
         if (!user) {
@@ -130,12 +130,14 @@ router.put('/:id', checkRole(['admin']), async (req, res) => {
 
         if (username) user.username = username;
         if (role) user.role = role;
+        if (email) user.role = email;
+        if (password) user.password = password;
 
         await user.save();
         res.json(user);
     } catch (err) {
         console.error(err.message);
-        res.status(500).send('Erreur serveur');
+        res.status(500).send('Erreur serveur',);
     }
 });
 
