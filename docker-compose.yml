@@ -21,8 +21,6 @@ services:
     build:
       context: .
       dockerfile: dockerfile
-    ports:
-      - "5000:5000"
     environment:
       MONGODB_URI: mongodb://admin:pass@mongodb:27017/
       JWT_SECRET: "@4bG7!fZsP3wH9#M"
