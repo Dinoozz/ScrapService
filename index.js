@@ -63,18 +63,32 @@ const verifyJwt = (req, res, next) => {
     }
 };
 
-
-app.use(express.json());
-app.use(logger);
-app.use(cors())
-
 // Gestion de session/*
 app.use(session({
     secret: SESSION_SECRET, // Remplacez par votre secret de session
     resave: false,
-    saveUninitialized: true,
+    saveUninitialized: false,
     cookie: { httpOnly: false, secure: true }
 }));
+
+app.use(express.json());
+app.use(logger);
+
+app.use(express.urlencoded({extended: true}));
+const whitelist = ['https://camille-lecoq.com']
+const corsOptions = {
+    origin: function (origin, callback) {
+        if (whitelist.indexOf(origin) !== -1) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by CORS'))
+        }
+    },
+    credentials: true
+}
+
+app.use(cors(corsOptions));
+
 
 
 app.use(verifyJwt);
