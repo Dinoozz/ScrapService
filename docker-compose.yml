@@ -13,6 +13,7 @@ services:
       - "27017:27017"
     volumes:
       - mongodb_data:/data/db
+    networks: my_network
   
 
   express-app:
@@ -34,6 +35,25 @@ services:
       DB_PASS: pass
     depends_on:
       - mongodb
+    networks:
+      - my_network
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+    depends_on:
+      - express-app
+    networks:
+      - my_network
 
 volumes:
   mongodb_data:
+
+networks:
+  my_network:
+
