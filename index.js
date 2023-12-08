@@ -5,16 +5,24 @@ const SESSION_SECRET = process.env.SESSION_SECRET;
 const COOKIE_SECRET = process.env.COOKIE_SECRET;
 const CSRF_SECRET = process.env.CSRF_SECRET;
 const JWT_SECRET = process.env.JWT_SECRET;
+
 const jwt = require('jsonwebtoken');
 const express = require('express');
 const logger = require('./middleware/loggerMiddleware');
 const connectDB = require('./mongodb_link');
-const userRoutes = require('./routes/userRoutes');
-const productRoutes = require('./routes/productRoutes');
-const priceHistoryRoutes = require('./routes/priceHistoryRoutes');
 const session = require('express-session');
 const User = require('./models/user');
 var cors = require('cors')
+
+const userRoutes = require('./routes/userRoutes');
+const productRoutes = require('./routes/productRoutes');
+const priceHistoryRoutes = require('./routes/priceHistoryRoutes');
+
+const stockHistoryRoutes = require('./routes/stockHistoryRoutes');
+const stockProductRoutes = require('./routes/stockProductRoutes');
+const teamRoutes = require('./routes/teamRoutes');
+const warehouseRoutes = require('./routes/warehouseRoutes');
+
 
 const app = express();
 
@@ -87,7 +95,7 @@ const corsOptions = {
     credentials: true
 }
 
-app.use(cors(corsOptions));
+//app.use(cors(corsOptions));
 
 
 
@@ -97,6 +105,12 @@ app.use(verifyJwt);
 app.use('/api/users', userRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/priceHistory', priceHistoryRoutes);
+
+app.use('/api/stockHistory', stockHistoryRoutes);
+app.use('/api/stockProduct', stockProductRoutes);
+app.use('/api/team', teamRoutes);
+app.use('/api/warehouse', warehouseRoutes);
+
 
 
 const PORT = process.env.PORT || 5000;

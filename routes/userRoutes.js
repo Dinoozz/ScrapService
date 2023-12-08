@@ -6,6 +6,7 @@ const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
+const Team = require('../models/team');
 const checkRole = require('../middleware/roleMiddleware');
 const router = express.Router();
 
@@ -77,15 +78,41 @@ router.get('/role', async (req, res) => {
     }
 });
 
+router.get('/team', async (req, res) => {
+    try {
+        if (!req.user) {
+            return res.status(401).send('Utilisateur non authentifié');
+        }
+
+        // Trouver l'utilisateur
+        const user = await User.findById(req.user._id);
+        if (!user) {
+            return res.status(404).send('Utilisateur non trouvé');
+        }
+
+        // Trouver l'équipe de l'utilisateur
+        const team = await Team.findOne({ listUser: user._id });
+        if (!team) {
+            return res.json({ team: 'Aucune' });
+        }
+
+        res.json({ team: team.name });
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).send('Erreur serveur');
+    }
+});
+
+
 // CRUD Operations
 
 router.post('/', checkRole(['admin']), async (req, res) => {
-    const { username, password, role } = req.body;
+    const { username, password, role , email} = req.body;
     try {
         let existingUser = await User.findOne({ username });
         if (existingUser) return res.status(400).send('L\'utilisateur existe déjà');
 
-        const newUser = new User({ username, password: hashedPassword, role });
+        const newUser = new User({ username, password, role, email});
         await newUser.save();
         res.status(201).json(newUser);
     } catch (err) {
@@ -98,12 +125,23 @@ router.post('/', checkRole(['admin']), async (req, res) => {
 router.get('/', checkRole(['admin', 'manager']), async (req, res) => {
     try {
         const users = await User.find().select('-token');
-        res.json(users);
+        const teams = await Team.find();
+
+        const usersWithTeam = await Promise.all(users.map(async (user) => {
+            const team = teams.find(team => team.listUser.includes(user._id));
+            return {
+                ...user._doc,
+                team: team ? team.name : 'Aucune'
+            };
+        }));
+
+        res.json(usersWithTeam);
     } catch (err) {
         console.error(err.message);
         res.status(500).send('Erreur serveur');
     }
 });
+
 
 // Lire un utilisateur spécifique (admin et manager seulement)
 router.get('/:id', checkRole(['admin', 'manager']), async (req, res) => {
@@ -112,48 +150,98 @@ router.get('/:id', checkRole(['admin', 'manager']), async (req, res) => {
         if (!user) {
             return res.status(404).send('Utilisateur non trouvé');
         }
-        res.json(user);
+
+        const teams = await Team.find();
+        const team = teams.find(team => team.listUser.includes(user._id));
+
+        const userWithTeam = {
+            ...user._doc,
+            team: team ? team.name : 'Aucune'
+        };
+
+        res.json(userWithTeam);
     } catch (err) {
         console.error(err.message);
         res.status(500).send('Erreur serveur');
     }
 });
 
+
 // Mettre à jour un utilisateur (admin seulement)
 router.put('/:id', checkRole(['admin']), async (req, res) => {
-    const { username, password, role, email } = req.body;
+    const { username, password, role, email, team } = req.body;
+
     try {
         let user = await User.findById(req.params.id);
         if (!user) {
             return res.status(404).send('Utilisateur non trouvé');
         }
 
+        // Mise à jour de l'utilisateur
         if (username) user.username = username;
         if (role) user.role = role;
         if (email) user.email = email;
         if (password) user.password = password;
 
+        // Gestion du changement ou de la suppression d'équipe
+        if (team) {
+            if (team === "Aucune") {
+                // Rechercher l'équipe actuelle et retirer l'utilisateur
+                const currentTeam = await Team.findOne({ listUser: user._id });
+                if (currentTeam) {
+                    currentTeam.listUser.pull(user._id);
+                    await currentTeam.save();
+                }
+            } else {
+                // Gérer le changement d'équipe
+                const newTeam = await Team.findOne({ name: team });
+                if (!newTeam) {
+                    return res.status(404).send('Équipe non trouvée');
+                }
+
+                // Vérifiez et retirez de l'équipe actuelle si nécessaire
+                const currentTeam = await Team.findOne({ listUser: user._id });
+                if (currentTeam && currentTeam._id.toString() !== newTeam._id.toString()) {
+                    currentTeam.listUser.pull(user._id);
+                    await currentTeam.save();
+                }
+
+                // Ajouter l'utilisateur à la nouvelle équipe
+                newTeam.listUser.push(user._id);
+                await newTeam.save();
+            }
+        }
+
         await user.save();
         res.json(user);
-    } catch (err) {
-        console.error(err.message);
-        res.status(500).send('Erreur serveur',);
-    }
-});
-
-// Supprimer un utilisateur (admin seulement)
-router.delete('/:id', checkRole(['admin']), async (req, res) => {
-    try {
-        const user = await User.findByIdAndDelete(req.params.id);
-        if (!user) {
-            return res.status(404).send('Utilisateur non trouvé');
-        }
-        res.json({ msg: 'Utilisateur supprimé' });
     } catch (err) {
         console.error(err.message);
         res.status(500).send('Erreur serveur');
     }
 });
+
+
+
+// Supprimer un utilisateur (admin seulement)
+router.delete('/:id', checkRole(['admin']), async (req, res) => {
+    try {
+        const userId = req.params.id;
+
+        // Mise à jour des équipes pour retirer l'utilisateur
+        await Team.updateMany({ listUser: userId }, { $pull: { listUser: userId } });
+
+        // Supprimer l'utilisateur
+        const user = await User.findByIdAndDelete(userId);
+        if (!user) {
+            return res.status(404).send('Utilisateur non trouvé');
+        }
+        res.json({ msg: 'Utilisateur et ses références dans les équipes supprimés' });
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).send('Erreur serveur');
+    }
+});
+
 
 
 

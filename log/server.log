@@ -13275,3 +13275,1906 @@
     Body: {}
     ------------------------------
     
+    ------------------------------
+    Time: 2023-12-7 13:32:58
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:33:23
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:33:43
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:34:57
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:35:32
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:35:42
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:36:41
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:37:38
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:37:49
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:39:12
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:41:5
+    Request Method: GET
+    Request URL: /api/users/role
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTYwODg4ZjE5YjA3NGNjMWU2NzNjYzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDA4MzM2OTEsImV4cCI6MTcwMDgzNzI5MX0.TMFZ1irIqrqCj3sKDOSXRldz_IimEcMBp1RCRuGLxsE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:41:55
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:43:43
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:43:54
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:44:27
+    Request Method: POST
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "89"
+}
+    Body: {
+  "username": "nouvelUtilisateur",
+  "password": "motDePasse",
+  "role": "user"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:45:16
+    Request Method: POST
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "89"
+}
+    Body: {
+  "username": "nouvelUtilisateur",
+  "password": "motDePasse",
+  "role": "user"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:45:34
+    Request Method: POST
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "110"
+}
+    Body: {
+  "username": "nouvelUtilisateur",
+  "password": "motDePasse",
+  "email": "email",
+  "role": "user"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:46:14
+    Request Method: POST
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "110"
+}
+    Body: {
+  "username": "nouvelUtilisateur",
+  "password": "motDePasse",
+  "email": "email",
+  "role": "user"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:48:52
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "112"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "test",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:51:26
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "112"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "test",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:51:39
+    Request Method: GET
+    Request URL: /api/users/
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:52:58
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "112"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "test",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:53:10
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "111"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "tet",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:53:47
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "112"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "test",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:54:54
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "108"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:58:49
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "112"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "None",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:59:31
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "112"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "None",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:59:51
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "113"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "Test2",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 13:59:54
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "113"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "test2",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 16:10:12
+    Request Method: GET
+    Request URL: /api/users/role
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 16:10:13
+    Request Method: GET
+    Request URL: /api/users/role
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 16:11:10
+    Request Method: POST
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "28"
+}
+    Body: {
+  "name": "Equipe1"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-7 16:11:20
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE5NTMwMjMsImV4cCI6MTcwMTk1NjYyM30.ZrbeBbB0KJNLLBOFLjn2j35FOZ4_TgzgjDrn-b6vAuE",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:25:51
+    Request Method: POST
+    Request URL: /api/users/login
+    Headers: {
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "69"
+}
+    Body: {
+  "email": "admin@mail.fr",
+  "password": "P@ssw0rdP@ssw0rd"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:26:0
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:27:32
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:27:49
+    Request Method: GET
+    Request URL: /api/team/6571bee31201b6fc00565ec9
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:28:0
+    Request Method: GET
+    Request URL: /api/team/6571c04a1201b6fc00565eca
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:29:30
+    Request Method: POST
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "28"
+}
+    Body: {
+  "name": "Equipe1"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:29:34
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:31:45
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:32:14
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:32:49
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:33:18
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:34:21
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:34:29
+    Request Method: GET
+    Request URL: /api/team/6571c04a1201b6fc00565eca
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:48:49
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "114"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "Equipe",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:48:54
+    Request Method: PUT
+    Request URL: /api/users/6571be961c9ec783efbebf9e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "115"
+}
+    Body: {
+  "username": "nouveauNom",
+  "password": "nouveauMotDePasse",
+  "team": "Equipe1",
+  "role": "manager"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:49:14
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:49:27
+    Request Method: DELETE
+    Request URL: /api/team/6571c04a1201b6fc00565eca
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:49:31
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:49:47
+    Request Method: PUT
+    Request URL: /api/team/6572e1fabf23f4f02f978fa2
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "29"
+}
+    Body: {
+  "name": "EquipeV2"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:49:53
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:50:13
+    Request Method: POST
+    Request URL: /api/warehouse
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "27"
+}
+    Body: {
+  "name": "Stock1"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:50:26
+    Request Method: GET
+    Request URL: /api/warehouse
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:50:32
+    Request Method: PUT
+    Request URL: /api/warehouse/6572e6d555d17327373f3451/team/6572e1fabf23f4f02f978fa2
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "0"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:50:54
+    Request Method: DELETE
+    Request URL: /api/warehouse/6572e6d555d17327373f3451/team/6572e1fabf23f4f02f978fa2
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:50:59
+    Request Method: GET
+    Request URL: /api/warehouse
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:51:2
+    Request Method: PUT
+    Request URL: /api/warehouse/6572e6d555d17327373f3451/team/6572e1fabf23f4f02f978fa2
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "0"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:51:6
+    Request Method: GET
+    Request URL: /api/warehouse
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:51:14
+    Request Method: GET
+    Request URL: /api/warehouse/6572e6d555d17327373f3451/product
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:51:33
+    Request Method: PUT
+    Request URL: /api/warehouse/6572e6d555d17327373f3451
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "26"
+}
+    Body: {
+  "name": "Stock"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:51:59
+    Request Method: GET
+    Request URL: /api/warehouse/6572e6d555d17327373f3451
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:54:35
+    Request Method: GET
+    Request URL: /api/warehouse
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:55:10
+    Request Method: POST
+    Request URL: /api/stockProduct
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "204"
+}
+    Body: {
+  "quantity": "1",
+  "reference": "A2-81",
+  "denomination": "Four",
+  "EAN": "123456",
+  "warehouse": "6572e6d555d17327373f3451",
+  "assignedTeam": "6572e1fabf23f4f02f978fa2"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:56:30
+    Request Method: POST
+    Request URL: /api/stockProduct
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "204"
+}
+    Body: {
+  "quantity": "1",
+  "reference": "A2-81",
+  "denomination": "Four",
+  "EAN": "123456",
+  "warehouse": "6572e6d555d17327373f3451",
+  "assignedTeam": "6572e1fabf23f4f02f978fa2"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:56:45
+    Request Method: GET
+    Request URL: /api/stockProduct
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:56:54
+    Request Method: GET
+    Request URL: /api/warehouse/6572e6d555d17327373f3451/product
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:57:2
+    Request Method: GET
+    Request URL: /api/warehouse
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:57:45
+    Request Method: POST
+    Request URL: /api/warehouse
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "27"
+}
+    Body: {
+  "name": "Stock1"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:57:48
+    Request Method: GET
+    Request URL: /api/warehouse
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:57:59
+    Request Method: POST
+    Request URL: /api/stockProduct
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "204"
+}
+    Body: {
+  "quantity": "1",
+  "reference": "A2-81",
+  "denomination": "Four",
+  "EAN": "123456",
+  "warehouse": "6572e89942ce432d7c7f1f39",
+  "assignedTeam": "6572e1fabf23f4f02f978fa2"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:58:3
+    Request Method: GET
+    Request URL: /api/warehouse
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:58:34
+    Request Method: GET
+    Request URL: /api/team
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:58:46
+    Request Method: PUT
+    Request URL: /api/warehouse/6572e89942ce432d7c7f1f39/team/6572e1fabf23f4f02f978fa2
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "0"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 10:58:53
+    Request Method: GET
+    Request URL: /api/warehouse
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:3:55
+    Request Method: GET
+    Request URL: /api/stockProduct
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:7:55
+    Request Method: GET
+    Request URL: /api/stockHistory
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:8:4
+    Request Method: GET
+    Request URL: /api/stockProduct
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:9:2
+    Request Method: POST
+    Request URL: /api/stockHistory
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "166"
+}
+    Body: {
+  "quantity": "1",
+  "IDProduct": "6572e8a742ce432d7c7f1f3d",
+  "IDWarehouse": "6572e89942ce432d7c7f1f39",
+  "IDTeam": "6572e1fabf23f4f02f978fa2"
+}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:9:7
+    Request Method: GET
+    Request URL: /api/stockHistory
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:9:20
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:9:23
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:9:44
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:9:53
+    Request Method: GET
+    Request URL: /api/stockHistory/team/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:10:2
+    Request Method: GET
+    Request URL: /api/stockHistory/warehouse/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:12:50
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:13:11
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:14:52
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:14:57
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:15:0
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:15:2
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:16:14
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:16:18
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:16:29
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3i
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:17:35
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:17:39
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:18:20
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:18:24
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:18:44
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:20:13
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:20:18
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:20:21
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:21:49
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3de
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:21:53
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:21:56
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:22:25
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:23:37
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:23:40
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:23:42
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3e
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:23:44
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f36
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
+    ------------------------------
+    Time: 2023-12-8 11:23:47
+    Request Method: GET
+    Request URL: /api/stockHistory/product/6572e8a742ce432d7c7f1f3d
+    Headers: {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTVlMWUxNTMzZjg3NDgwOWM3M2Q5NGEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDIwMjc1NTEsImV4cCI6MTcwMjAzMTE1MX0.RALb-KIbWO-ouH-C7hH5KiqmIjsW3DISQFhvxFBiWQA",
+  "user-agent": "PostmanRuntime/7.35.0",
+  "accept": "*/*",
+  "host": "localhost:5000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive"
+}
+    Body: {}
+    ------------------------------
+    
