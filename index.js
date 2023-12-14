@@ -100,7 +100,7 @@ app.use(cors(corsOptions));*/
 
 app.use(express.urlencoded({extended: true}));
 //const whitelist = ['http://localhost:3000']
-const whitelist = ['camille-lecoq.com']
+const whitelist = ['https://camille-lecoq.com']
 const corsOptions = {
     origin: function (origin, callback) {
         if (whitelist.indexOf(origin) !== -1) {
