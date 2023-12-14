@@ -74,16 +74,12 @@ router.put('/searchproduct', async (req, res) => {
         
         // Vérification du nombre de produits trouvés
         if (products.length === 1) {
-            if (EAN)
-                console.log("EAN", EAN);
-            if (reference)
-                console.log("reference", reference);
             // Mise à jour de la quantité si nécessaire
             // const product = products[0];
             // if (quantity) product.quantity = quantity;
             // await product.save();
 
-            res.json({ message: "Produit trouvé"});
+            res.json({ message: "Produit trouvé", products});
         } else if (products.length > 1) {
             res.json({ message: "Plusieurs produits identiques" });
         } else {

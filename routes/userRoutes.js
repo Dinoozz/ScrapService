@@ -78,6 +78,24 @@ router.get('/role', async (req, res) => {
     }
 });
 
+router.get('/info', async (req, res) => {
+    try {
+        if (!req.user) {
+            return res.status(401).send('Utilisateur non authentifié');
+        }
+
+        // Trouver l'utilisateur
+        const user = await User.findById(req.user.userId);
+        if (!user) {
+            return res.status(404).send('Utilisateur non trouvé');
+        }
+        res.json(user);
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).send('Erreur serveur');
+    }
+});
+
 router.get('/team', async (req, res) => {
     try {
         if (!req.user) {
@@ -85,18 +103,17 @@ router.get('/team', async (req, res) => {
         }
 
         // Trouver l'utilisateur
-        const user = await User.findById(req.user._id);
+        const user = await User.findById(req.user.userId);
         if (!user) {
             return res.status(404).send('Utilisateur non trouvé');
         }
-
         // Trouver l'équipe de l'utilisateur
         const team = await Team.findOne({ listUser: user._id });
         if (!team) {
             return res.json({ team: 'Aucune' });
         }
 
-        res.json({ team: team.name });
+        res.json({ team: team._id });
     } catch (err) {
         console.error(err.message);
         res.status(500).send('Erreur serveur');
