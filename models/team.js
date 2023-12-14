@@ -5,7 +5,8 @@ const Schema = mongoose.Schema;
 const TeamSchema = new Schema({
     name: {
         type: String,
-        required: true
+        required: true,
+        unique: true,
     },
     listUser: [{
         type: Schema.Types.ObjectId,

@@ -14,15 +14,16 @@ router.post('/', checkRole(['admin', 'manager']), async (req, res) => {
     }
 });
 
-// Récupérer tous les Warehouses
+// Récupérer tous les Warehouses avec les équipes assignées
 router.get('/', checkRole(['admin', 'manager']), async (req, res) => {
     try {
-        const warehouses = await Warehouse.find();
+        const warehouses = await Warehouse.find().populate('listAssignedTeam');
         res.json(warehouses);
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
 });
+
 
 // Récupérer tous les StockProducts d'un Warehouse spécifique
 router.get('/:id/product', checkRole(['admin', 'manager']), async (req, res) => {
@@ -40,10 +41,10 @@ router.get('/:id/product', checkRole(['admin', 'manager']), async (req, res) => 
 });
 
 
-// Récupérer un Warehouse spécifique par ID
+// Récupérer un Warehouse spécifique par ID avec les équipes assignées
 router.get('/:id', checkRole(['admin', 'manager']), async (req, res) => {
     try {
-        const warehouse = await Warehouse.findById(req.params.id);
+        const warehouse = await Warehouse.findById(req.params.id).populate('listAssignedTeam');
         if (!warehouse) {
             return res.status(404).json({ message: 'Warehouse non trouvé' });
         }
@@ -52,6 +53,7 @@ router.get('/:id', checkRole(['admin', 'manager']), async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 });
+
 
 
 // Mettre à jour un Warehouse

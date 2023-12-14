@@ -5,7 +5,8 @@ const Schema = mongoose.Schema;
 const warehouseSchema = new Schema({
     name: {
         type: String,
-        required: true
+        required: true,
+        unique: true,
     },
     listProduct: [{
         type: Schema.Types.ObjectId, 

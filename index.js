@@ -82,7 +82,7 @@ app.use(session({
 app.use(express.json());
 app.use(logger);
 
-app.use(express.urlencoded({extended: true}));
+/*app.use(express.urlencoded({extended: true}));
 const whitelist = ['https://camille-lecoq.com']
 const corsOptions = {
     origin: function (origin, callback) {
@@ -95,8 +95,23 @@ const corsOptions = {
     credentials: true
 }
 
-app.use(cors(corsOptions));
+app.use(cors(corsOptions));*/
 
+
+app.use(express.urlencoded({extended: true}));
+const whitelist = ['http://localhost:3000']
+const corsOptions = {
+    origin: function (origin, callback) {
+        if (whitelist.indexOf(origin) !== -1) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by CORS'))
+        }
+    },
+    credentials: true
+}
+
+app.use(cors(corsOptions));
 
 
 app.use(verifyJwt);

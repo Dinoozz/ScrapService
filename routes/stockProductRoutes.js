@@ -52,6 +52,49 @@ router.get('/:id', checkRole(['admin', 'manager']), async (req, res) => {
     }
 });
 
+// Recherche de produit via scan
+router.put('/searchproduct', async (req, res) => {
+    const { EAN, reference, idProduit, warehouse, team, quantity } = req.body;
+    try {
+        let query = { warehouse: warehouse, assignedTeam: team };
+        
+        // Ajouter le critère de recherche spécifique
+        if (EAN) {
+            query.EAN = EAN;
+        } else if (reference) {
+            query.reference = reference;
+        } else if (idProduit) {
+            query._id = idProduit;
+        } else {
+            return res.status(400).json({ message: 'Critère de recherche non fourni' });
+        }
+        
+        // Recherche du produit
+        const products = await StockProduct.find(query);
+        
+        // Vérification du nombre de produits trouvés
+        if (products.length === 1) {
+            if (EAN)
+                console.log("EAN", EAN);
+            if (reference)
+                console.log("reference", reference);
+            // Mise à jour de la quantité si nécessaire
+            // const product = products[0];
+            // if (quantity) product.quantity = quantity;
+            // await product.save();
+
+            res.json({ message: "Produit trouvé"});
+        } else if (products.length > 1) {
+            res.json({ message: "Plusieurs produits identiques" });
+        } else {
+            res.json({ message: "Produit non trouvé" });
+        }
+
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+});
+
 // Mettre à jour un StockProduct
 router.put('/:id', checkRole(['admin', 'manager']), async (req, res) => {
     const { warehouse } = req.body;
@@ -100,5 +143,6 @@ router.delete('/:id', checkRole(['admin', 'manager']), async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 });
+
 
 module.exports = router;
