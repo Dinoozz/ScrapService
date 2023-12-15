@@ -1,8 +1,106 @@
 const express = require('express');
+const multer = require('multer');
+const csv = require('csv-parser');
+const fs = require('fs');
 const StockProduct = require('../models/stockProduct');
+const StockHistory = require('../models/stockHistory');
 const Warehouse = require('../models/warehouse');
+const Team = require('../models/team');
 const checkRole = require('../middleware/roleMiddleware');
 const router = express.Router();
+const upload = multer({ dest: 'uploads/' });
+
+router.post('/csv', upload.single('csv'), async (req, res) => {
+    if (!req.file) {
+        return res.status(400).json({ message: 'Aucun fichier fourni' });
+    }
+
+    // Renommer le fichier pour inclure l'extension .csv
+    const tempPath = req.file.path;
+    const targetPath = tempPath + '.csv';
+    fs.renameSync(tempPath, targetPath);
+
+    try {
+        // Suppression des StockHistory et StockProduct existants
+        await StockHistory.deleteMany({});
+        await StockProduct.deleteMany({});
+
+        // Suppression des références de produits dans toutes les Warehouse
+        await Warehouse.updateMany({}, { $set: { list_product: [] } });
+
+        // Recherche ou création de la Warehouse "OPEN SI"
+        let openSiWarehouse = await Warehouse.findOne({ name: "OPEN SI" });
+        if (!openSiWarehouse) {
+            const adminTeam = await Team.findOne({ name: "Admin" });
+            openSiWarehouse = new Warehouse({ name: "OPEN SI", listAssignedTeam: adminTeam ? [adminTeam._id] : [] });
+            await openSiWarehouse.save();
+        }
+
+        // Initialiser un tableau pour stocker les IDs des nouveaux produits
+        let newProductIds = [];
+        let productPromises = [];
+
+        // Traitement du fichier CSV
+        fs.createReadStream(targetPath)
+            .pipe(csv({ separator: ';', encoding: 'ISO-8859-1' }))
+            .on('data', (row) => {
+                const reference = row['R�f�rence'];
+                const denomination = row['D�signation'];
+                const quantity = row['Stock r�el'];
+            
+                if (reference && denomination && quantity) {
+                    let productPromise = StockProduct.findOne({ reference, warehouse: openSiWarehouse._id })
+                        .then(async product => {
+                            if (product) {
+                                // Mise à jour de la quantité si le produit existe
+                                product.quantity = parseInt(product.quantity) + parseInt(quantity);
+                                return product.save();
+                            } else {
+                                // Création d'un nouveau produit
+                                const newProduct = new StockProduct({
+                                    reference,
+                                    denomination,
+                                    quantity,
+                                    warehouse: openSiWarehouse._id,
+                                    assignedTeam: openSiWarehouse.listAssignedTeam[0]
+                                });
+                                await newProduct.save();
+                                return newProduct._id;
+                            }
+                        });
+            
+                    productPromises.push(productPromise);
+                }
+            })
+            .on('end', async () => {
+                try {
+                    let newProductIds = await Promise.all(productPromises);
+            
+                    // Filtrer pour ne garder que les nouveaux IDs (undefined pour les produits existants)
+                    newProductIds = newProductIds.filter(id => id !== undefined);
+            
+                    if (newProductIds.length > 0) {
+                        await Warehouse.findByIdAndUpdate(openSiWarehouse._id, {
+                            $push: { listProduct: { $each: newProductIds } }
+                        });
+                    }
+            
+                    res.json({ message: "Fichier CSV traité avec succès" });
+                } catch (error) {
+                    res.status(500).json({ message: error.message });
+                } finally {
+                    fs.unlinkSync(targetPath); // Suppression du fichier après traitement
+                }
+            });
+
+    } catch (error) {
+        // Suppression du fichier en cas d'erreur
+        if (fs.existsSync(targetPath)) {
+            fs.unlinkSync(targetPath);
+        }
+        res.status(500).json({ message: error.message });
+    }
+});
 
 // Ajouter un nouveau StockProduct
 router.post('/', checkRole(['admin', 'manager']), async (req, res) => {
@@ -54,14 +152,12 @@ router.get('/:id', checkRole(['admin', 'manager']), async (req, res) => {
 
 // Recherche de produit via scan
 router.put('/searchproduct', async (req, res) => {
-    const { EAN, reference, idProduit, warehouse, team, quantity } = req.body;
+    const { reference, idProduit, warehouse, team, quantity } = req.body;
     try {
         let query = { warehouse: warehouse, assignedTeam: team };
         
         // Ajouter le critère de recherche spécifique
-        if (EAN) {
-            query.EAN = EAN;
-        } else if (reference) {
+        if (reference) {
             query.reference = reference;
         } else if (idProduit) {
             query._id = idProduit;

@@ -15,10 +15,6 @@ const stockProductSchema = new Schema({
         type: String,
         required: true
     },
-    EAN: {
-        type: String,
-        required: true
-    },
     warehouse: {
         type: Schema.Types.ObjectId,
         ref: 'Warehouse',
