@@ -83,8 +83,8 @@ app.use(logger);
 
 
 app.use(express.urlencoded({extended: true}));
-const whitelist = ['http://localhost:3000', 'http://localhost:5000']
-//const whitelist = ['https://camille-lecoq.com']
+//const whitelist = ['http://localhost:3000', 'http://localhost:5000']
+const whitelist = ['https://camille-lecoq.com']
 const corsOptions = {
     origin: function (origin, callback) {
         if (whitelist.indexOf(origin) !== -1) {
