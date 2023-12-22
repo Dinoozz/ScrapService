@@ -32,7 +32,6 @@ router.get('/:id/product', checkRole(['admin', 'manager']), async (req, res) => 
         if (!warehouse) {
             return res.status(404).json({ message: 'Warehouse non trouvé' });
         }
-
         // Les StockProducts sont maintenant inclus dans le document warehouse grâce à populate
         res.json(warehouse.listProduct);
     } catch (error) {
@@ -72,15 +71,23 @@ router.put('/:id', checkRole(['admin', 'manager']), async (req, res) => {
 // Supprimer un Warehouse
 router.delete('/:id', checkRole(['admin', 'manager']), async (req, res) => {
     try {
-        const warehouse = await Warehouse.findByIdAndDelete(req.params.id);
+        const warehouse = await Warehouse.findById(req.params.id);
+
         if (!warehouse) {
             return res.status(404).json({ message: 'Warehouse non trouvé' });
         }
+
+        if (warehouse.name === 'OPEN SI') {
+            return res.status(403).json({ message: 'Impossible de supprimer l\'entrepôt "OPEN SI"' });
+        }
+
+        await Warehouse.findByIdAndDelete(req.params.id);
         res.json({ message: 'Warehouse supprimé' });
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
 });
+
 
 
 // Ajouter une équipe à l'entrepôt
@@ -110,6 +117,7 @@ router.delete('/:id/team/:teamId', checkRole(['admin', 'manager']), async (req, 
     try {
         const warehouse = await Warehouse.findById(req.params.id);
         const teamId = req.params.teamId;
+
 
         if (!warehouse) {
             return res.status(404).json({ message: 'Entrepôt non trouvé' });

@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const stockProductSchema = new Schema({
     quantity: {
-        type: String, 
+        type: Number, 
         required: true 
     },
     reference: {

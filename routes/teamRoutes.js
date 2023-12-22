@@ -54,14 +54,35 @@ router.put('/:id', checkRole(['admin', 'manager']), async (req, res) => {
 // Supprimer une équipe Team
 router.delete('/:id', checkRole(['admin', 'manager']), async (req, res) => {
     try {
-        const team = await Team.findByIdAndDelete(req.params.id);
+        const teamId = req.params.id;
+
+        // Trouver la Team sans la supprimer pour vérifier son nom
+        const team = await Team.findById(teamId);
         if (!team) {
-            return res.status(404).json({ message: 'Team non trouvé' });
+            return res.status(404).json({ message: 'Team non trouvée' });
+        } else if (team.name === "Admin") {
+            return res.status(400).json({ message: 'Impossible de supprimer la Team Admin' });
         }
-        res.json({ message: 'Team supprimé' });
+
+        // Supprimer la Team
+        await Team.findByIdAndDelete(teamId);
+
+        // Retirer l'ID de la Team des listAssignedTeam dans toutes les Warehouse
+        await Warehouse.updateMany({}, { $pull: { listAssignedTeam: teamId } });
+
+        // Trouver et supprimer tous les StockProduct assignés à cette Team
+        const productsToRemove = await StockProduct.find({ assignedTeam: teamId });
+        const productIdsToRemove = productsToRemove.map(product => product._id);
+        await StockProduct.deleteMany({ assignedTeam: teamId });
+
+        // Mettre à jour les listProduct dans toutes les Warehouse
+        await Warehouse.updateMany({}, { $pull: { listProduct: { $in: productIdsToRemove } } });
+
+        res.json({ message: 'Team supprimée avec succès et données associées mises à jour' });
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
 });
+
 
 module.exports = router;
