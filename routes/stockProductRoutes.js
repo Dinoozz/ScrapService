@@ -60,7 +60,7 @@ router.post('/csv', checkRole(['admin', 'manager']), upload.single('csv'), async
                 const denomination = row['Désignation'];
                 const quantity = row['Stock réel'];
             
-                if (reference && denomination && quantity > 0) {
+                if (reference && denomination && quantity) {
                     let productPromise = StockProduct.findOne({ reference, warehouse: openSiWarehouse._id })
                         .then(async product => {
                             if (product) {
@@ -116,7 +116,7 @@ router.post('/csv', checkRole(['admin', 'manager']), upload.single('csv'), async
                         const denomination = row['Désignation'];
                         const quantity = row['Stock réel'];
                     
-                        if (reference && denomination && quantity > 0 && depotStock) {
+                        if (reference && denomination && quantity && depotStock) {
                             let secondReadPromise = Warehouse.findOne({ name: depotStock }).exec()
                                 .then(warehouse => {
                                     if (warehouse && warehouse.listAssignedTeam.length > 0) {
