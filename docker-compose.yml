@@ -32,6 +32,8 @@ services:
       DB_PORT: 27017
       DB_USER: cuisinieregrandelargeur
       DB_PASS: Agentpepites007
+    volumes:
+      - "/home/ubuntu/web-client/:/public"
     depends_on:
       - mongodb
     networks:
