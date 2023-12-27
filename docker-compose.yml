@@ -33,7 +33,7 @@ services:
       DB_USER: cuisinieregrandelargeur
       DB_PASS: Agentpepites007
     volumes:
-      - "/home/ubuntu/web-client/:/public"
+      - "/home/ubuntu/web-api/:/public"
     depends_on:
       - mongodb
     networks:
@@ -47,6 +47,7 @@ services:
     volumes:
       - ./nginx:/etc/nginx/conf.d
       - /etc/letsencrypt:/etc/letsencrypt:ro
+      - /home/ubuntu/web-api/public:/var/www/public
     depends_on:
       - express-app
     networks:
