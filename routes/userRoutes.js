@@ -50,7 +50,7 @@ router.post('/login', async (req, res) => {
         user.token = token;
         await user.save();
 
-        res.json({ message: 'Connexion réussie', token });
+        res.json({ message: 'Connexion réussie', user });
     } catch (err) {
         console.error(err.message);
         res.status(500).send('Erreur serveur');

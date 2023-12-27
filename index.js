@@ -8,6 +8,7 @@ const JWT_SECRET = process.env.JWT_SECRET;
 
 const jwt = require('jsonwebtoken');
 const express = require('express');
+const path = require('path');
 const logger = require('./middleware/loggerMiddleware');
 const connectDB = require('./mongodb_link');
 const session = require('express-session');
@@ -80,6 +81,9 @@ app.use(session({
 
 app.use(express.json());
 app.use(logger);
+
+const publicPath = path.join(__dirname, 'public');
+app.use('/public', express.static(publicPath));
 
 
 app.use(express.urlencoded({extended: true}));

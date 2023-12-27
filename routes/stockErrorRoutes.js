@@ -1,4 +1,7 @@
 const express = require('express');
+const { createObjectCsvWriter } = require('csv-writer');
+const path = require('path');
+const fs = require('fs');
 const StockError = require('../models/stockError'); // Remplacez par le chemin correct de votre modèle
 const router = express.Router();
 const StockProduct = require('../models/stockProduct');
@@ -53,6 +56,65 @@ router.get('/process', checkRole(['admin', 'manager']), async (req, res) => {
         }
 
         res.json({ message: 'Processus de vérification terminé' });
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+});
+
+router.get('/generate-csv', async (req, res) => {
+    try {
+        // Vérification des StockError avec statut False
+        const errorExists = await StockError.findOne({ statut: false });
+        if (errorExists) {
+            return res.status(400).json({ message: "Des erreurs de stock non résolues existent." });
+        }
+
+        // Récupérer toutes les Warehouse sauf "OPEN SI"
+        const warehouses = await Warehouse.find({ name: { $ne: 'OPEN SI' } });
+        let productsData = [];
+
+        for (const warehouse of warehouses) {
+            const products = await StockProduct.find({ warehouse: warehouse._id });
+            let uniqueProducts = new Set(); // Utiliser un Set pour stocker les références uniques
+
+            // Ajouter un seul exemplaire de chaque produit unique à la liste
+            products.forEach(product => {
+                if (!uniqueProducts.has(product.reference)) {
+                    uniqueProducts.add(product.reference);
+                    productsData.push({
+                        warehouseName: warehouse.name,
+                        reference: product.reference,
+                        denomination: product.denomination,
+                        quantity: product.quantity
+                    });
+                }
+            });
+        }
+
+        // Chemin du fichier CSV à créer dans un dossier accessible publiquement
+        const publicDir = path.join(__dirname, '../public'); // Assurez-vous que ce dossier est accessible publiquement
+        if (!fs.existsSync(publicDir)) {
+            fs.mkdirSync(publicDir, { recursive: true });
+        }
+        const filePath = path.join(publicDir, 'products.csv');
+
+        // Création du fichier CSV
+        const csvWriter = createObjectCsvWriter({
+            path: filePath,
+            header: [
+                { id: 'warehouseName', title: 'Warehouse Name' },
+                { id: 'reference', title: 'Reference' },
+                { id: 'denomination', title: 'Denomination' },
+                { id: 'quantity', title: 'Quantity' }
+            ]
+        });
+
+        await csvWriter.writeRecords(productsData);
+
+        // Renvoyer l'URL du fichier CSV
+        const fileUrl = `${req.protocol}://${req.get('host')}/public/products.csv`; // Construire l'URL du fichier
+        res.json({ fileUrl }); // Envoyer l'URL en réponse
+
     } catch (error) {
         res.status(500).json({ message: error.message });
     }

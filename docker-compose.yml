@@ -6,8 +6,8 @@ services:
     container_name: mongodb
     restart: always
     environment:
-      MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: pass
+      MONGO_INITDB_ROOT_USERNAME: cuisinieregrandelargeur
+      MONGO_INITDB_ROOT_PASSWORD: Agentpepites007
       MONGO_INITDB_DATABASE: dbScraping
     ports:
       - "27017:27017"
@@ -22,16 +22,16 @@ services:
       context: .
       dockerfile: dockerfile
     environment:
-      MONGODB_URI: mongodb://admin:pass@mongodb:27017/
+      MONGODB_URI: mongodb://cuisinieregrandelargeur:Agentpepites007@mongodb:27017/
       JWT_SECRET: "@4bG7!fZsP3wH9#M"
       SESSION_SECRET: Y6n%8kPq@1#4!vTz
       COOKIE_SECRET: M4%rSfwh8:eAztq
       CSRF_SECRET: P$rN5o+AZ1H]~Bk
-      DB_URI: mongodb://admin:pass@mongodb:27017
+      DB_URI: mongodb://cuisinieregrandelargeur:Agentpepites007@mongodb:27017
       DB_HOST: mongo
       DB_PORT: 27017
-      DB_USER: admin
-      DB_PASS: pass
+      DB_USER: cuisinieregrandelargeur
+      DB_PASS: Agentpepites007
     depends_on:
       - mongodb
     networks:

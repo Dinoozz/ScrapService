@@ -19,8 +19,6 @@ router.post('/csv', checkRole(['admin', 'manager']), upload.single('csv'), async
 
     const tempPath = req.file.path;
     const targetPath = tempPath + '.csv';
-    console.log('Chemin temporaire:', tempPath);
-    console.log('Chemin cible:', targetPath);
     fs.renameSync(tempPath, targetPath);
 
     try {
@@ -29,14 +27,12 @@ router.post('/csv', checkRole(['admin', 'manager']), upload.single('csv'), async
         await StockProduct.deleteMany({});
         // Suppression des références de produits dans toutes les Warehouse
         await Warehouse.updateMany({}, { $set: { listProduct: [] } });
-        console.log('Collections StockHistory, StockProduct et listProduct des Warehouses vidées');
+
         // Recherche ou création de la Warehouse "OPEN SI"
         let openSiWarehouse = await Warehouse.findOne({ name: "OPEN SI" });
-        // Recherche ou création de l'équipe "Admin"
         let adminTeam = await Team.findOne({ name: "Admin" });
 
         if (!adminTeam) {
-            // Créer l'équipe Admin si elle n'existe pas
             adminTeam = new Team({ name: "Admin" });
             await adminTeam.save();
         }
@@ -44,79 +40,86 @@ router.post('/csv', checkRole(['admin', 'manager']), upload.single('csv'), async
         if (!openSiWarehouse) {
             openSiWarehouse = new Warehouse({
                 name: "OPEN SI",
-                listAssignedTeam: [adminTeam._id] // Ajouter l'ID de l'équipe Admin
+                listAssignedTeam: [adminTeam._id]
             });
             await openSiWarehouse.save();
         }
-        // Initialiser un tableau pour stocker les IDs des nouveaux produits
-        let newProductIds = [];
-        let productPromises = [];
-        // Traitement du fichier CSV
+
+        // Obtenir la liste des noms de toutes les warehouses
+        const allWarehouseNames = (await Warehouse.find({})).map(wh => wh.name);
+
+        // Initialiser un objet pour stocker les produits par référence
+        let productMap = {};
+        let cree = 0;
+        let doublon = 0;
+
+        // Traitement du fichier CSV - Première lecture
         fs.createReadStream(targetPath)
             .pipe(iconv.decodeStream('win1252'))
             .pipe(csv({ separator: ';' }))
             .on('data', (row) => {
+                const depotStock = row['Dépôt de stock'];
                 const reference = row['Référence'];
                 const denomination = row['Désignation'];
-                const quantity = row['Stock réel'];
-            
-                if (reference && denomination && quantity) {
-                    let productPromise = StockProduct.findOne({ reference, warehouse: openSiWarehouse._id })
-                        .then(async product => {
-                            if (product) {
-                                // Mise à jour de la quantité si le produit existe
-                                product.quantity = parseInt(product.quantity) + parseInt(quantity);
-                                return product.save();
-                            } else {
-                                // Création d'un nouveau produit
-                                const newProduct = new StockProduct({
-                                    reference,
-                                    denomination,
-                                    quantity,
-                                    warehouse: openSiWarehouse._id,
-                                    assignedTeam: openSiWarehouse.listAssignedTeam[0]
-                                });
-                                await newProduct.save();
-                                return newProduct._id;
-                            }
-                        });
-            
-                    productPromises.push(productPromise);
+                const quantity = parseInt(row['Stock réel']);
+                
+                if (!depotStock || !allWarehouseNames.includes(depotStock)) {
+                    return;
+                }
+                console.log("reference", reference,"denomination",denomination ,"quantity", quantity)
+                if (reference && denomination) {
+                    // Vérifier si le produit avec cette référence existe déjà
+                    if (!productMap[reference]) {
+                        cree = cree + 1;
+                        console.log("cree", cree);
+                        productMap[reference] = { denomination, totalQuantity: quantity, exists: false };
+                    } else {
+                        doublon = doublon + 1;
+                        console.log("doublon", doublon);
+                        productMap[reference].totalQuantity += quantity;
+                    }
                 }
             })
             .on('end', async () => {
-                console.log('Première lecture du CSV terminée');
                 try {
-                    let newProductIds = await Promise.all(productPromises);
-                    // Filtrer pour ne garder que les nouveaux IDs (undefined pour les produits existants)
-                    newProductIds = newProductIds.filter(id => id !== undefined);
+                    // Parcourir productMap pour effectuer les mises à jour ou créations
+                    for (const [reference, { denomination, totalQuantity, exists }] of Object.entries(productMap)) {
+                        const existingProduct = await StockProduct.findOne({ reference, warehouse: openSiWarehouse._id });
 
-
-                    if (newProductIds.length > 0) {
-                        await Warehouse.findByIdAndUpdate(openSiWarehouse._id, {
-                            $addToSet: { listProduct: { $each: newProductIds } }
-                        });
+                        if (existingProduct) {
+                            existingProduct.quantity += totalQuantity;
+                            await existingProduct.save();
+                        } else {
+                            const newProduct = new StockProduct({
+                                reference,
+                                denomination,
+                                quantity: totalQuantity,
+                                warehouse: openSiWarehouse._id,
+                                assignedTeam: openSiWarehouse.listAssignedTeam[0]
+                            });
+                            await newProduct.save();
+                            openSiWarehouse.listProduct.push(newProduct._id);
+                        }
                     }
-                } catch (error) {
-                    console.error('Erreur lors du traitement du CSV:', error);
-                    res.status(500).json({ message: error.message });
-                }
-                // Deuxième lecture du CSV pour les autres Warehouses
-                let secondReadPromises = [];
-                let warehouseUpdates = {};
-                console.log('Chemin temporaire:', tempPath);
-                console.log('Chemin cible:', targetPath);
+                    await openSiWarehouse.save(); // Sauvegarder les mises à jour de "OPEN SI"
 
-                fs.createReadStream(targetPath)
-                    .pipe(iconv.decodeStream('win1252'))
-                    .pipe(csv({ separator: ';' }))
-                    .on('data', (row) => {
-                        const depotStock = row['Dépôt de stock'];
-                        const reference = row['Référence'];
-                        const denomination = row['Désignation'];
-                        const quantity = row['Stock réel'];
-                    
-                        if (reference && denomination && quantity && depotStock) {
+                    // Deuxième lecture du CSV pour les autres Warehouses
+                    let secondReadPromises = [];
+                    let warehouseUpdates = {};
+
+                    fs.createReadStream(targetPath)
+                        .pipe(iconv.decodeStream('win1252'))
+                        .pipe(csv({ separator: ';' }))
+                        .on('data', (row) => {
+                            const depotStock = row['Dépôt de stock'];
+                            const reference = row['Référence'];
+                            const denomination = row['Désignation'];
+                            const quantity = parseInt(row['Stock réel']);
+
+                            if (!depotStock || !allWarehouseNames.includes(depotStock)) {
+                                return;
+                            }
+
                             let secondReadPromise = Warehouse.findOne({ name: depotStock }).exec()
                                 .then(warehouse => {
                                     if (warehouse && warehouse.listAssignedTeam.length > 0) {
@@ -124,62 +127,58 @@ router.post('/csv', checkRole(['admin', 'manager']), upload.single('csv'), async
                                             const newProduct = new StockProduct({
                                                 reference,
                                                 denomination,
-                                                quantity : 0,
+                                                quantity: 0,
                                                 warehouse: warehouse._id,
                                                 assignedTeam: teamId
                                             });
                                             return newProduct.save().then(savedProduct => {
-                                                // Ici, on collecte l'ID du produit pour la mise à jour de la Warehouse
                                                 warehouseUpdates[warehouse._id] = warehouseUpdates[warehouse._id] || [];
                                                 warehouseUpdates[warehouse._id].push(savedProduct._id);
                                                 return savedProduct;
                                             });
                                         });
-                    
+
                                         return Promise.all(productCreationPromises);
                                     } else {
                                         return [];
                                     }
                                 });
-                    
-                            secondReadPromises.push(secondReadPromise);
-                        }
-                    })
-                    .on('end', async () => {
-                        try {
-                            console.log('Deuxième lecture du CSV terminée');
-                            await Promise.all(secondReadPromises);
 
-                            // Mise à jour des Warehouses avec les nouveaux produits
-                            for (const [warehouseId, productIds] of Object.entries(warehouseUpdates)) {
-                                if (productIds.length > 0) {
-                                    await Warehouse.findByIdAndUpdate(warehouseId, {
-                                        $addToSet: { listProduct: { $each: productIds } }
-                                    });
+                            secondReadPromises.push(secondReadPromise);
+                        })
+                        .on('end', async () => {
+                            try {
+                                await Promise.all(secondReadPromises);
+
+                                // Mise à jour des Warehouses avec les nouveaux produits
+                                for (const [warehouseId, productIds] of Object.entries(warehouseUpdates)) {
+                                    if (productIds.length > 0) {
+                                        await Warehouse.findByIdAndUpdate(warehouseId, {
+                                            $addToSet: { listProduct: { $each: productIds } }
+                                        });
+                                    }
+                                }
+
+                                res.json({ message: "Fichier CSV traité avec succès et nouveaux produits créés" });
+                            } catch (error) {
+                                res.status(500).json({ message: error.message });
+                            } finally {
+                                if (fs.existsSync(targetPath)) {
+                                    fs.unlinkSync(targetPath);
                                 }
                             }
-                            console.log('Mises à jour des Warehouses terminées');
-                            res.json({ message: "Fichier CSV traité avec succès et nouveaux produits créés" });
-                        } catch (error) {
-                            console.error('Erreur lors du traitement du CSV:', error);
-                            res.status(500).json({ message: error.message });
-                        } finally {
-                            if (fs.existsSync(targetPath)) {
-                                console.log('Suppression du fichier CSV');
-                                fs.unlinkSync(targetPath); // Suppression du fichier après traitement
-                            }
-                        }
-                    })
-            })
+                        });
+                } catch (error) {
+                    res.status(500).json({ message: error.message });
+                }
+            });
     } catch (error) {
-        console.error('Erreur lors de la préparation du fichier CSV:', error);
         if (fs.existsSync(targetPath)) {
             fs.unlinkSync(targetPath);
         }
         res.status(500).json({ message: error.message });
     }
 });
-
 
 // Ajouter un nouveau StockProduct
 router.post('/', checkRole(['admin', 'manager']), async (req, res) => {
@@ -307,7 +306,7 @@ router.put('/searchproduct', async (req, res) => {
             // if (quantity) product.quantity = quantity;
             // await product.save();
 
-            res.json({ message: "Produit trouvé", products});
+            res.json({ message: "Produit trouvé", product: products[0]});
         } else if (products.length > 1) {
             res.json({ message: "Plusieurs produits identiques" });
         } else {
@@ -318,6 +317,35 @@ router.put('/searchproduct', async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 });
+
+// Mettre à jour un StockProduct
+router.put('/correction/:id', checkRole(['admin', 'manager']), async (req, res) => {
+    const { warehouseId, teamId, quantity } = req.body;
+
+    try {
+        // Vérifier si l'ID de Warehouse et Team existent
+        if (warehouseId && !(await Warehouse.findById(warehouseId))) {
+            return res.status(404).json({ message: 'Warehouse non trouvé' });
+        }
+        if (teamId && !(await Team.findById(teamId))) {
+            return res.status(404).json({ message: 'Team non trouvé' });
+        }
+        // Rechercher et mettre à jour le StockProduct
+        const updatedStockProduct = await StockProduct.findOneAndUpdate(
+            { _id: req.params.id, warehouse: warehouseId, assignedTeam: teamId },
+            { $set: { quantity: quantity } },  // Remplacement de la quantité
+            { new: true }
+        );
+        if (!updatedStockProduct) {
+            return res.status(404).json({ message: 'StockProduct non trouvé' });
+        }
+
+        res.json({ updatedStockProduct });
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+});
+
 
 // Mettre à jour un StockProduct et créer un StockHistory
 router.put('/:id', checkRole(['admin', 'manager']), async (req, res) => {
