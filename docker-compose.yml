@@ -33,7 +33,7 @@ services:
       DB_USER: cuisinieregrandelargeur
       DB_PASS: Agentpepites007
     volumes:
-      - "/home/ubuntu/web-api/:/var/www/public"
+      - "/home/ubuntu/web-api:/var/www"
     depends_on:
       - mongodb
     networks:
