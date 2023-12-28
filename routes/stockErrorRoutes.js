@@ -113,6 +113,7 @@ router.get('/generate-csv', async (req, res) => {
 
         // Renvoyer l'URL du fichier CSV
         const fileUrl = `${req.protocol}://${req.get('host')}/public/products.csv`; // Construire l'URL du fichier
+        res.setHeader('Content-Disposition', 'attachment; filename="products.csv"');
         res.json({ fileUrl }); // Envoyer l'URL en réponse
 
     } catch (error) {
