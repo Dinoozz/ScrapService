@@ -111,10 +111,15 @@ router.get('/generate-csv', async (req, res) => {
 
         await csvWriter.writeRecords(productsData);
 
-        // Renvoyer l'URL du fichier CSV
-        const fileUrl = `${req.protocol}://${req.get('host')}/public/products.csv`; // Construire l'URL du fichier
-        res.setHeader('Content-Disposition', 'attachment; filename="products.csv"');
-        res.json({ fileUrl }); // Envoyer l'URL en réponse
+        res.download(filePath, 'products.csv', (err) => {
+            if (err) {
+                res.status(500).send({
+                    message: "Impossible de télécharger le fichier."
+                });
+            }
+            // Suppression du fichier après envoi
+            fs.unlinkSync(filePath);
+        });
 
     } catch (error) {
         res.status(500).json({ message: error.message });
