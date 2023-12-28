@@ -35,4 +35,4 @@ jobs:
           
           # Aller dans le dossier du projet et lancer Docker Compose
           cd web-api
-          docker compose up --build
+          docker compose up -d --build
