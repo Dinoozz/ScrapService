@@ -24,6 +24,21 @@ router.get('/', checkRole(['admin', 'manager']), async (req, res) => {
     }
 });
 
+// Récupérer l'historique de stock par ID d'Equipe et Warehouse
+router.get('/warehouse/:warehouseId/team/:teamId', checkRole(['admin', 'manager']), async (req, res) => {
+    try {
+        const { warehouseId, teamId } = req.params;
+        const stockHistories = await StockHistory.find({ 
+            IDWarehouse: warehouseId,
+            IDTeam: teamId 
+        }).populate('IDProduct');
+        res.json(stockHistories);
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+});
+
+
 // Récupérer l'historique de stock par ID de produit
 router.get('/product/:id', checkRole(['admin', 'manager']), async (req, res) => {
     try {

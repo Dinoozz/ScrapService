@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "658c40069b2b0438c6eb2c4a"
+  },
+  "name": "Equipe Aurelien",
+  "listUser": [
+    {
+      "$oid": "658d78ef3968687ca55b1d86"
+    }
+  ],
+  "__v": 9
+},
+{
+  "_id": {
+    "$oid": "658c400a9b2b0438c6eb2c4d"
+  },
+  "name": "Equipe Maxime",
+  "listUser": [
+    {
+      "$oid": "658d78fa3968687ca55b205f"
+    },
+    {
+      "$oid": "658c3fe29b2b0438c6eb2c32"
+    }
+  ],
+  "__v": 6
+},
+{
+  "_id": {
+    "$oid": "658c400f9b2b0438c6eb2c50"
+  },
+  "name": "Equipe Guillaume et Alexis",
+  "listUser": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c40139b2b0438c6eb2c53"
+  },
+  "name": "Equipe Thibaut et Marc",
+  "listUser": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c40b49b2b0438c6eb2ccc"
+  },
+  "name": "Admin",
+  "listUser": [],
+  "__v": 6
+},
+{
+  "_id": {
+    "$oid": "658d7d09bb5435c4b27c0c84"
+  },
+  "name": "Equipe Dimitri et Camille",
+  "listUser": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d7d1bbb5435c4b27c1077"
+  },
+  "name": "Equipe Coline et Pierre",
+  "listUser": [],
+  "__v": 0
+}]

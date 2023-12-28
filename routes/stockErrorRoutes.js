@@ -54,7 +54,7 @@ router.get('/process', checkRole(['admin', 'manager']), async (req, res) => {
                 }).save();
             }
         }
-
+        
         res.json({ message: 'Processus de vérification terminé' });
     } catch (error) {
         res.status(500).json({ message: error.message });
@@ -68,16 +68,15 @@ router.get('/generate-csv', async (req, res) => {
         if (errorExists) {
             return res.status(400).json({ message: "Des erreurs de stock non résolues existent." });
         }
-
+        
         // Récupérer toutes les Warehouse sauf "OPEN SI"
         const warehouses = await Warehouse.find({ name: { $ne: 'OPEN SI' } });
         let productsData = [];
-
+        
         for (const warehouse of warehouses) {
             const products = await StockProduct.find({ warehouse: warehouse._id });
             let uniqueProducts = new Set(); // Utiliser un Set pour stocker les références uniques
-
-            // Ajouter un seul exemplaire de chaque produit unique à la liste
+            
             products.forEach(product => {
                 if (!uniqueProducts.has(product.reference)) {
                     uniqueProducts.add(product.reference);
@@ -91,14 +90,14 @@ router.get('/generate-csv', async (req, res) => {
             });
         }
 
-        // Chemin du fichier CSV à créer dans un dossier accessible publiquement
-        const publicDir = path.join(__dirname, '../public'); // Assurez-vous que ce dossier est accessible publiquement
+        // Chemin du fichier CSV à créer
+        const publicDir = path.join(__dirname, '../public/exports/stocks/'); // Assurez-vous que ce dossier est accessible publiquement
         if (!fs.existsSync(publicDir)) {
             fs.mkdirSync(publicDir, { recursive: true });
         }
         const filePath = path.join(publicDir, 'products.csv');
-
-        // Création du fichier CSV
+        
+        // Création du fichier CSV avec le délimiteur ';'
         const csvWriter = createObjectCsvWriter({
             path: filePath,
             header: [
@@ -106,25 +105,32 @@ router.get('/generate-csv', async (req, res) => {
                 { id: 'reference', title: 'Reference' },
                 { id: 'denomination', title: 'Denomination' },
                 { id: 'quantity', title: 'Quantity' }
-            ]
+            ],
+            fieldDelimiter: ';' // Délimiteur modifié
         });
-
+        
         await csvWriter.writeRecords(productsData);
-
-        res.download(filePath, 'products.csv', (err) => {
+        
+        // Définition des en-têtes HTTP pour le téléchargement
+        res.set({
+            'Content-Type': 'text/csv',
+            //'Content-Disposition': `attachment; filename="products.csv"`
+            // Ajoutez d'autres en-têtes si nécessaire
+        });
+        //, 'products.csv',
+        res.download(filePath, (err) => {
             if (err) {
                 res.status(500).send({
                     message: "Impossible de télécharger le fichier."
                 });
             }
-            // Suppression du fichier après envoi
-            fs.unlinkSync(filePath);
         });
-
+        
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
 });
+
 
 // Récupérer tous les StockError
 router.get('/', async (req, res) => {
