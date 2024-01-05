@@ -37,10 +37,15 @@ router.get('/process', checkRole(['admin', 'manager']), async (req, res) => {
                         }).save();
                         errorFound = true;
                         break; // Passer au produit suivant dans "OPEN SI"
+                    } else {
+                        // Toutes les quantités sont égales, donc ajoutez la quantité d'un seul produit
+                        totalQuantity += productsInWarehouse[0].quantity;
                     }
+                } else if (productsInWarehouse.length === 1) {
+                    // Un seul produit trouvé, ajoutez sa quantité
+                    totalQuantity += productsInWarehouse[0].quantity;
                 }
 
-                totalQuantity += productsInWarehouse.reduce((sum, p) => sum + p.quantity, 0);
                 productIdsToCompare.push(...productsInWarehouse.map(p => p._id));
             }
 
@@ -60,6 +65,7 @@ router.get('/process', checkRole(['admin', 'manager']), async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 });
+
 
 router.get('/generate-csv', async (req, res) => {
     try {
